@@ -1,0 +1,1 @@
+"use strict";function iniciarApp(){buscarPorFecha()}function buscarPorFecha(){var n=document.querySelector("#fecha");n&&n.addEventListener("input",function(n){var e=n.target.value;window.location="?fecha=".concat(e)})}document.addEventListener("DOMContentLoaded",function(){iniciarApp()});
