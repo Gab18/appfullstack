@@ -4,7 +4,7 @@ namespace Controllers;
 
 use MVC\Router;
 
-class CitaController {
+class citaController {
     public static function index(Router $router) {
 
         // Si no hay sesión iniciada o no hay usuario, redirige
